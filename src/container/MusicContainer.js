@@ -20,7 +20,7 @@ class MusicContainer extends Component{
 
     render(){
         return(
-            <div>
+            <div className="top20">
                 <Header />
                 <MusicList songs = {this.state.songs}/>
             </div>

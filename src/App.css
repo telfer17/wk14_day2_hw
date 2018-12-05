@@ -30,3 +30,50 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+h2 {
+  display: block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+#artwork {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.top20 {
+  justify-content: center;
+  border: 10px solid darkred;
+  border-radius: 30px;
+  margin:20px;
+  padding:10px;
+  background-color: grey;
+}
+
+.song {
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.song:hover {
+  background-color: darkgrey;
+}
+
+.chart-list {
+  text-align: center;
+}
